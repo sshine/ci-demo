@@ -1,0 +1,19 @@
+{
+    "name": "ci-demo",
+    "dockerFile": "Dockerfile",
+    "runArgs": [],
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.vscode-github-actions",
+                "rust-lang.rust-analyzer",
+                "serayuzgur.crates"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "workbench.editor.enablePreview": false
+            }
+        }
+    }
+}
