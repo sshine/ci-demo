@@ -14,6 +14,8 @@ on:
 
 jobs:
   build:
+    name: Yolo!
+    runs-on: rust:1.76.0-slim-bullseye
     steps:
       - name: Checkout sources
         uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2, 2023-04-13
